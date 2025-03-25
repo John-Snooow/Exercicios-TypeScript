@@ -17,7 +17,7 @@ interface User {
     name: string
     email: string
 }
-
+//criando um objeto onde as chaves sao numeros e os valores sao usuarios
 const users: Record<number, User> = {
     1: { name: "John", email: "john@example" },
     2: { name: "Jane", email: "jane@example" }
